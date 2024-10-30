@@ -1,5 +1,6 @@
 function validEmail(str) {
-  //your JS code here.
+	let y=/^[\w-.]+@[\w-]+(\.[\w-]+)*$/;
+  return y.test(str);
 }
 
 // Do not change the code below.
